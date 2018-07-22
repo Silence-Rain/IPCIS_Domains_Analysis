@@ -1,0 +1,14 @@
+get_graph
+
+变量：
+nodes  //字典 节点：度数
+edges //二维数组
+
+方法：
+transform_into_graph(path) //把通信记录转化为图
+number_of_nodes() //返回节点个数
+nodes() //返回节点字典
+add_node(node) //传入节点名，把节点加入图
+add_edge(node1, node1) //传入节点名，在两节点之间添加边
+neighbors(node) //传入节点名，返回节点的对端节点列表
+degree([node]) //传入节点列表，返回节点：出度对应的字典
